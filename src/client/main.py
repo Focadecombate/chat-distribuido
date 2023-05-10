@@ -3,7 +3,7 @@ import threading
 from app import App
 from receive_messages import receive_messages
 from print_commands import print_commands
-from src.common import Config
+from Config import Config
 
 
 if __name__ == "__main__":

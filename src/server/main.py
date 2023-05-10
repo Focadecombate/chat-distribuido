@@ -1,7 +1,7 @@
 import socket
 import threading
 
-from src.common import Config
+from Config import Config
 
 from models import Group, Client
 from client_service import ClientService

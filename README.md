@@ -4,6 +4,12 @@
 
 O projeto consiste em um chat utilizando sockets, onde o cliente se conecta ao servidor e pode enviar mensagens para todos os outros clientes conectados diretamente ou a partir de grupos.
 
+## Escolhas Importantes
+
+- Utilizar Json para trafego de informações
+- Threads para receber mensagens
+- Separar em serviços para simplificar o código
+
 ## Como executar
 
 Você vai precisar do [Poetry]("https://python-poetry.org/docs") instalado na sua máquina, para instalar as dependências do projeto. Para isso, execute o seguinte comando:
